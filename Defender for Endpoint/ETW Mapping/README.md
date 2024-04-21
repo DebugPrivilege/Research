@@ -20,12 +20,12 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AntivirusEmergencyUpdatesInstalled`** | Emergency security intelligence updates for Windows Defender Antivirus were applied | Microsoft-Windows-Windows Defender | 2010 |
 | **`AntivirusDefinitionsUpdateFailed`** | Security intelligence updates for Windows Defender Antivirus were not applied | Microsoft-Windows-Windows Defender | 2001 |
 | **`AntivirusDefinitionsUpdated`** | Security intelligence updates for Windows Defender Antivirus were applied successfully. | Microsoft-Windows-Windows Defender | 2000 |
-| **`UserAccountModified`** | A user account was changed | Microsoft-Windows-Security-Auditing | 4738 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
+| **`UserAccountModified`** | A user account was changed. | Microsoft-Windows-Security-Auditing | 4738 |
+| **`SecurityGroupDeleted`** | A security-enabled local group was deleted. | Microsoft-Windows-Security-Auditing | 4734 |
+| **`UserAccountRemovedFromLocalGroup`** | A member was removed from a security-enabled local group. | Microsoft-Windows-Security-Auditing | 4733 |
+| **`UserAccountAddedToLocalGroup`** | A member was added to a security-enabled local group. | Microsoft-Windows-Security-Auditing | 4732 |
+| **`UserAccountDeleted`** | A user account was deleted. | Microsoft-Windows-Security-Auditing | 4726 |
+| **`AntivirusError`** | Windows Defender Antivirus encountered an error while taking action on malware | Microsoft-Windows-Windows Defender | 1119 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
