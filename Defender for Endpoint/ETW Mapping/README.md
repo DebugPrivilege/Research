@@ -20,7 +20,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AntivirusEmergencyUpdatesInstalled`** | Emergency security intelligence updates for Windows Defender Antivirus were applied | Microsoft-Windows-Windows Defender | 2010 |
 | **`AntivirusDefinitionsUpdateFailed`** | Security intelligence updates for Windows Defender Antivirus were not applied | Microsoft-Windows-Windows Defender | 2001 |
 | **`AntivirusDefinitionsUpdated`** | Security intelligence updates for Windows Defender Antivirus were applied successfully. | Microsoft-Windows-Windows Defender | 2000 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
+| **`UserAccountModified`** | A user account was changed | Microsoft-Windows-Security-Auditing | 4738 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
