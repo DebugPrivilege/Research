@@ -7,7 +7,7 @@ This section provides a detailed mapping of all the ActionTypes from Microsoft D
 | **`MemoryRemoteProtect`** | A process has modified the protection mask for a memory region used by another process. | Microsoft-Windows-ThreatIntelligence | 22 |
 | **`DeviceBootAttestationInfo`** | Description of ActionType2 | ETW Provider2 | EventID2 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
+| **`NtAllocateVirtualMemoryRemoteApiCall`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
