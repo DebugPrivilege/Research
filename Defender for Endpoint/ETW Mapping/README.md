@@ -4,7 +4,7 @@ This section provides a detailed mapping of all the ActionTypes from Microsoft D
 
 | ActionType | Description | ETW Provider | Event ID |
 |------------|-------------|--------------|----------|
-| ActionType1 | Description of ActionType1 | ETW Provider1 | EventID1 |
-| ActionType2 | Description of ActionType2 | ETW Provider2 | EventID2 |
-| ActionType3 | Description of ActionType3 | ETW Provider3 | EventID3 |
+| **`ActionType1`** | Description of ActionType1 | ETW Provider1 | EventID1 |
+| **`ActionType2`** | Description of ActionType2 | ETW Provider2 | EventID2 |
+| **`ActionType3`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 
