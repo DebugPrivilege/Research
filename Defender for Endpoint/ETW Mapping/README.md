@@ -11,12 +11,12 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AccountCheckedForBlankPassword`** | An account was queried for a blank password. | Microsoft-Windows-Security-Auditing | 4797 |
 | **`SecurityGroupCreated`** | An security group was created. | Microsoft-Windows-Security-Auditing | 4731 |
 | **`ServiceInstalled`** | A service was installed. | Microsoft-Windows-Security-Auditing | 4697 |
-| **`NetworkShareObjectAccessChecked`** | An attempt was made to access file or folder on a network share | Microsoft-Windows-Security-Auditing | 5145 |
-| **`NetworkShareObjectDeleted`** | A file or folder hosted on a network share was deleted | Microsoft-Windows-Security-Auditing | 5144 |
-| **`NetworkShareObjectModified`** | A file or folder hosted on a network share was modified | Microsoft-Windows-Security-Auditing | 5143 |
-| **`NetworkShareObjectAdded`** | A file or folder was shared on a network share | Microsoft-Windows-Security-Auditing | 5142 |
-| **`DirectoryServiceObjectCreated`** | An object was added to Active Directory | Microsoft-Windows-Security-Auditing | 5137 |
-| **`DirectoryServiceObjectModified`** | An object in Active Directory was modified | Microsoft-Windows-Security-Auditing | 5136 |
+| **`NetworkShareObjectAccessChecked`** | An attempt was made to access file or folder on a network share. | Microsoft-Windows-Security-Auditing | 5145 |
+| **`NetworkShareObjectDeleted`** | A file or folder hosted on a network share was deleted. | Microsoft-Windows-Security-Auditing | 5144 |
+| **`NetworkShareObjectModified`** | A file or folder hosted on a network share was modified. | Microsoft-Windows-Security-Auditing | 5143 |
+| **`NetworkShareObjectAdded`** | A file or folder was shared on a network share. | Microsoft-Windows-Security-Auditing | 5142 |
+| **`DirectoryServiceObjectCreated`** | An object was added to Active Directory. | Microsoft-Windows-Security-Auditing | 5137 |
+| **`DirectoryServiceObjectModified`** | An object in Active Directory was modified. | Microsoft-Windows-Security-Auditing | 5136 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
