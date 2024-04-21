@@ -12,7 +12,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`SecurityGroupCreated`** | An security group was created. | Microsoft-Windows-Security-Auditing | 4731 |
 | **`ServiceInstalled`** | A service was installed. | Microsoft-Windows-Security-Auditing | 4697 |
 | **`NetworkShareObjectAccessChecked`** | An attempt was made to access file or folder on a network share | Microsoft-Windows-Security-Auditing | 5145 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
+| **`NetworkShareObjectDeleted`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
