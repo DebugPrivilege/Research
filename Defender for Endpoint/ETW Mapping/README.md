@@ -4,7 +4,7 @@ This section provides a detailed mapping of all the ActionTypes from Microsoft D
 
 | ActionType | Description | ETW Provider | Event ID |
 |------------|-------------|--------------|----------|
-| **`MemoryRemoteProtect`** | Description of ActionType1 | ETW Provider1 | EventID1 |
+| **`MemoryRemoteProtect`** | A process has modified the protection mask for a memory region used by another process. | ETW Provider1 | EventID1 |
 | **`NtAllocateVirtualMemoryRemoteApiCall`** | Description of ActionType2 | ETW Provider2 | EventID2 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
