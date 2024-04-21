@@ -28,13 +28,13 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AntivirusError`** | Windows Defender Antivirus encountered an error while taking action on malware | Microsoft-Windows-Windows Defender | 1119 |
 | **`AntivirusMalwareActionFailed`** | Windows Defender Antivirus attempted to take action on malware but it failed | Microsoft-Windows-Windows Defender | 1118 |
 | **`AntivirusMalwareBlocked`** | Windows Defender Antivirus blocked files or activity involving malware potentially unwanted applications or suspicious behavior. | Microsoft-Windows-Windows Defender | 1117 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
+| **`AntivirusDetection`** | Windows Defender Antivirus detected a threat. | Microsoft-Windows-Windows Defender | 1116 |
+| **`SecurityLogCleared`** | The security log was cleared. | Microsoft-Windows-Security-Auditing | 1102 |
+| **`PnpDeviceConnected`** | A plug and play (PnP) device was attached. | Microsoft-Windows-Security-Auditing | 6416 |
+| **`PnpDeviceAllowed`** | Device control allowed a trusted plug and play (PnP) device.| Microsoft-Windows-Kernel-PnP-Events | 400 |
+| **`PnpDeviceBlocked`** | Device control blocked an untrusted plug and play (PnP) device. | Microsoft-Windows-Kernel-PnP-Events | 402 |
+| **`ScreenshotTaken`** | A screenshot was taken. | Microsoft-Windows-Win32k | 1 |
+| **`ScheduledTaskCreated`** | 	A scheduled task was created. | Microsoft-Windows-Security-Auditing | 4698 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
