@@ -43,5 +43,33 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AppControlExecutableAudited`** | Application control detected the use of an untrusted executable. | Microsoft-Windows-AppLocker | 8003 |
 | **`AppControlExecutableBlocked`** | Application control blocked the use of an untrusted executable. | Microsoft-Windows-AppLocker | 8004 |
 | **`AppControlScriptAudited`** | Application control detected the use of an untrusted script. | Microsoft-Windows-AppLocker | 8006 |
+| **`AppControlScriptBlocked`** | Application control blocked the use of an untrusted script. | Microsoft-Windows-AppLocker | 8007 |
+| **`AppControlPackagedAppAudited`** | Application control detected the use of an untrusted packaged app. | Microsoft-Windows-AppLocker | 8021 |
+| **`AppControlPackagedAppBlocked`** | Application control blocked the installation of an untrusted packaged app. | Microsoft-Windows-AppLocker | 8022 |
+| **`AppControlScriptAudited`** | Application control detected the use of an untrusted script. | Microsoft-Windows-AppLocker | 8006 |
+| **`AppControlAppInstallationAudited`** | Application control detected the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8024 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+| **`AppControlAppInstallationBlocked`** | Application control blocked the installation of an untrusted app. | Microsoft-Windows-AppLocker | 8025 |
+
 
 
