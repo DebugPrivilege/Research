@@ -35,8 +35,8 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`PnpDeviceBlocked`** | Device control blocked an untrusted plug and play (PnP) device. | Microsoft-Windows-Kernel-PnP-Events | 402 |
 | **`ScreenshotTaken`** | A screenshot was taken. | Microsoft-Windows-Win32k | 1 |
 | **`ScheduledTaskCreated`** | 	A scheduled task was created. | Microsoft-Windows-Security-Auditing | 4698 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
+| **`ScheduledTaskDeleted`** | A scheduled task was deleted. | Microsoft-Windows-Security-Auditing | 4699 |
+| **`ScheduledTaskEnabled`** | A scheduled task was turned on. | Microsoft-Windows-Security-Auditing | 4700 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
