@@ -39,8 +39,8 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`ScheduledTaskEnabled`** | A scheduled task was turned on. | Microsoft-Windows-Security-Auditing | 4700 |
 | **`ScheduledTaskDisabled`** | A scheduled task was turned off. | Microsoft-Windows-Security-Auditing | 4701 |
 | **`OpenProcessApiCall`** | The OpenProcess function was called indicating an attempt to open a handle to a local process and potentially manipulate that process. | Microsoft-Windows-SEC | 19 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
-| **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
+| **`CreateRemoteThreadApiCall`** | A thread that runs in the virtual address space of another process was created. | Microsoft-Windows-SEC | 18 |
+| **`AppControlExecutableAudited`** | Application control detected the use of an untrusted executable. | Microsoft-Windows-AppLocker | 8003 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 | **`DriverLoad`** | Description of ActionType3 | ETW Provider3 | EventID3 |
 
