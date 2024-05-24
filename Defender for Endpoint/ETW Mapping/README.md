@@ -56,6 +56,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`ProcessCreatedUsingWmiQuery`** | A process was created using Windows Management Instrumentation (WMI). | Microsoft-Windows-WMI-Activity | 22/23 |
 | **`NtAllocateVirtualMemoryApiCall`** | Memory was allocated for a process. | Microsoft-Windows-ThreatIntelligence | 6 |
 | **`NtProtectVirtualMemoryApiCall`** | The protection attributes for allocated memory was modified. | Microsoft-Windows-ThreatIntelligence | 7 |
+| **`SetThreadContextRemoteApiCall`** | The context of a thread was set from a user-mode process. | Microsoft-Windows-ThreatIntelligence | 5 |
 
 
 
