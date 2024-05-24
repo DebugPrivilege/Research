@@ -5,8 +5,8 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | ActionType | Description | ETW Provider | Event ID |
 |------------|-------------|--------------|----------|
 | **`MemoryRemoteProtect`** | A process has modified the protection mask for a memory region used by another process. | Microsoft-Windows-ThreatIntelligence | 22 |
-| **`DeviceBootAttestationInfo`** | N/A | N/A | N/A |
-| **`DriverLoad`** | N/A | N/A | N/A |
+| **`DeviceBootAttestationInfo`** | System Guard generated a boot-time attestation report. | N/A | N/A |
+| **`DriverLoad`** | A driver was loaded. | N/A | N/A |
 | **`NtAllocateVirtualMemoryRemoteApiCall`** | Virtual Memory was allocated for a remote process | Microsoft-Windows-ThreatIntelligence | 21 |
 | **`AccountCheckedForBlankPassword`** | An account was queried for a blank password. | Microsoft-Windows-Security-Auditing | 4797 |
 | **`SecurityGroupCreated`** | An security group was created. | Microsoft-Windows-Security-Auditing | 4731 |
