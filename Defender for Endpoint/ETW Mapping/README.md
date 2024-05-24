@@ -7,7 +7,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`MemoryRemoteProtect`** | A process has modified the protection mask for a memory region used by another process. | Microsoft-Windows-ThreatIntelligence | 22 |
 | **`DeviceBootAttestationInfo`** | System Guard generated a boot-time attestation report. | N/A | N/A |
 | **`DriverLoad`** | A driver was loaded. | N/A | N/A |
-| **`NtAllocateVirtualMemoryRemoteApiCall`** | Virtual Memory was allocated for a remote process | Microsoft-Windows-ThreatIntelligence | 21 |
+| **`NtAllocateVirtualMemoryRemoteApiCall`** | Virtual Memory was allocated for a remote process | Microsoft-Windows-ThreatIntelligence | 1 |
 | **`AccountCheckedForBlankPassword`** | An account was queried for a blank password. | Microsoft-Windows-Security-Auditing | 4797 |
 | **`SecurityGroupCreated`** | An security group was created. | Microsoft-Windows-Security-Auditing | 4731 |
 | **`ServiceInstalled`** | A service was installed. | Microsoft-Windows-Security-Auditing | 4697 |
@@ -54,6 +54,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`PowerShellCommand`** | A PowerShell alias function filter cmdlet external script application script workflow or configuration was executed from a PowerShell host process. | {a0c1853b-5c40-4b15-8766-3cf1c58f985a} | 7937 |
 | **`RemoteWmiOperation`** | A Windows Management Instrumentation (WMI) operation was initiated from a remote device. | Microsoft-Windows-WMI-Activity | 11 |
 | **`ProcessCreatedUsingWmiQuery`** | A process was created using Windows Management Instrumentation (WMI). | Microsoft-Windows-WMI-Activity | 22/23 |
+| **`NtAllocateVirtualMemoryApiCall`** | Memory was allocated for a process. | Microsoft-Windows-ThreatIntelligence | 6 |
 
 
 
