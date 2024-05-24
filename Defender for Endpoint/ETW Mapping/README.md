@@ -52,6 +52,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AppControlCodeIntegrityPolicyAudited`** | Application control detected a code integrity policy violation. | Microsoft-Windows-AppLocker | 3076 |
 | **`AppControlCodeIntegrityPolicyBlocked`** | Application control blocked a code integrity policy violation | Microsoft-Windows-AppLocker | 3077 |
 | **`PowerShellCommand`** | A PowerShell alias function filter cmdlet external script application script workflow or configuration was executed from a PowerShell host process. | {a0c1853b-5c40-4b15-8766-3cf1c58f985a} | 7937 |
+| **`RemoteWmiOperation`** | A Windows Management Instrumentation (WMI) operation was initiated from a remote device. | Microsoft-Windows-WMI-Activity | 11 |
 
 
 
