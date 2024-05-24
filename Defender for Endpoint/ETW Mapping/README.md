@@ -59,6 +59,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`SetThreadContextRemoteApiCall`** | The context of a thread was set from a user-mode process. | Microsoft-Windows-ThreatIntelligence | 5 |
 | **`QueueUserApcRemoteApiCall`** | An asynchronous procedure call (APC) was scheduled to execute in a user-mode thread. | Microsoft-Windows-ThreatIntelligence | 4 |
 | **`NtMapViewOfSectionRemoteApiCall`** | A section of a process's memory was mapped by calling the function NtMapViewOfSection. | Microsoft-Windows-ThreatIntelligence | 3 |
+| **`ProcessPrimaryTokenModified`** | A process's primary token was modified. | Microsoft-Windows-SEC | 25 |
 
 
 
