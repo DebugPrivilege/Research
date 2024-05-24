@@ -64,6 +64,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`BrowserLaunchedToOpenUrl`** | A web browser opened a URL that originated as a link in another application. | {30336ed4-e327-447c-9de0-51b652c86108} | 19501 |
 | **`WmiRemoteQuery`** | A remote WMI query was performed. | Microsoft-Windows-WMI-Activity | 1 |
 | **`DnsQueryRequest`** | A DNS query was performed. | Microsoft-Windows-DNS-Client | 3010 |
+| **`WmiBindEventFilterToConsumer`** | A filter for WMI events was bound to a consumer. | Microsoft-Windows-WMI-Activity | 5861 |
 
 
 
