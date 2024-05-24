@@ -55,6 +55,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`RemoteWmiOperation`** | A Windows Management Instrumentation (WMI) operation was initiated from a remote device. | Microsoft-Windows-WMI-Activity | 11 |
 | **`ProcessCreatedUsingWmiQuery`** | A process was created using Windows Management Instrumentation (WMI). | Microsoft-Windows-WMI-Activity | 22/23 |
 | **`NtAllocateVirtualMemoryApiCall`** | Memory was allocated for a process. | Microsoft-Windows-ThreatIntelligence | 6 |
+| **`NtProtectVirtualMemoryApiCall`** | The protection attributes for allocated memory was modified. | Microsoft-Windows-ThreatIntelligence | 7 |
 
 
 
