@@ -62,6 +62,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`ProcessPrimaryTokenModified`** | A process's primary token was modified. | Microsoft-Windows-SEC | 25 |
 | **`UserAccountCreated`** | A local SAM account or a domain account was created. | Microsoft-Windows-Security-Auditing | 4720 |
 | **`BrowserLaunchedToOpenUrl`** | A web browser opened a URL that originated as a link in another application. | {30336ed4-e327-447c-9de0-51b652c86108} | 19501 |
+| **`WmiRemoteQuery`** | A remote WMI query was performed. | Microsoft-Windows-WMI-Activity | 1 |
 
 
 
