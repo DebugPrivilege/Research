@@ -60,6 +60,8 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`QueueUserApcRemoteApiCall`** | An asynchronous procedure call (APC) was scheduled to execute in a user-mode thread. | Microsoft-Windows-ThreatIntelligence | 4 |
 | **`NtMapViewOfSectionRemoteApiCall`** | A section of a process's memory was mapped by calling the function NtMapViewOfSection. | Microsoft-Windows-ThreatIntelligence | 3 |
 | **`ProcessPrimaryTokenModified`** | A process's primary token was modified. | Microsoft-Windows-SEC | 25 |
+| **`UserAccountCreated`** | A local SAM account or a domain account was created. | Microsoft-Windows-Security-Auditing | 4720 |
+| **`BrowserLaunchedToOpenUrl`** | A web browser opened a URL that originated as a link in another application. | {30336ed4-e327-447c-9de0-51b652c86108} | 19501 |
 
 
 
