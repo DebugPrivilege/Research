@@ -67,6 +67,9 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`WmiRemoteQuery`** | A remote WMI query was performed. | Microsoft-Windows-WMI-Activity | 1 |
 | **`DnsQueryRequest`** | A DNS query was performed. | Microsoft-Windows-DNS-Client | 3010 |
 | **`WmiBindEventFilterToConsumer`** | A filter for WMI events was bound to a consumer. | Microsoft-Windows-WMI-Activity | 5861 |
+| **`ShellLinkCreateFileEvent`** | A specially crafted link file (.lnk) was generated. The link file contains unusual attributes that might launch malicious code along with a legitimate file or application. | N/A | N/A |
+| **`FileTimestampModificationEvent`** | File timestamp information was modified. | Microsoft-Windows-SEC | 35 |
+| **`WmiBindEventFilterToConsumer`** | A filter for WMI events was bound to a consumer. | Microsoft-Windows-WMI-Activity | 5861 |
 
 
 
