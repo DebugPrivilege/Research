@@ -76,6 +76,9 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`ExploitGuardLowIntegrityImageAudited`** | Exploit protection detected the launch of a process from a low-integrity file. | Microsoft-Windows-Security-Mitigations | 5 |
 | **`ExploitGuardLowIntegrityImageBlocked`** | Exploit protection blocked the launch of a process from a low-integrity file. | Microsoft-Windows-Security-Mitigations | 6 |
 | **`ExploitGuardSharedBinaryAudited`** | Exploit protection detected the launch of a process from a remote shared file. | Microsoft-Windows-Security-Mitigations | 7 |
+| **`ExploitGuardSharedBinaryBlocked`** | Exploit protection blocked the launch of a process from a file in a remote device. | Microsoft-Windows-Security-Mitigations | 8 |
+| **`ExploitGuardWin32SystemCallAudited`** | Exploit protection detected a call to the Windows system API. | Microsoft-Windows-Security-Mitigations | 9 |
+| **`ExploitGuardWin32SystemCallBlocked`** | Exploit protection blocked a call to the Windows system API. | Microsoft-Windows-Security-Mitigations | 10 |
 
 
 
