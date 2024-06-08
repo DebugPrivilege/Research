@@ -74,6 +74,8 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`ExploitGuardChildProcessAudited`** | Exploit protection detected the creation of a child process. | Microsoft-Windows-Security-Mitigations | 3 |
 | **`ExploitGuardChildProcessBlocked`** | Exploit protection blocked the creation of a child process. | Microsoft-Windows-Security-Mitigations | 4 |
 | **`ExploitGuardLowIntegrityImageAudited`** | Exploit protection detected the launch of a process from a low-integrity file. | Microsoft-Windows-Security-Mitigations | 5 |
+| **`ExploitGuardLowIntegrityImageBlocked`** | Exploit protection blocked the launch of a process from a low-integrity file. | Microsoft-Windows-Security-Mitigations | 6 |
+| **`ExploitGuardSharedBinaryAudited`** | Exploit protection detected the launch of a process from a remote shared file. | Microsoft-Windows-Security-Mitigations | 7 |
 
 
 
