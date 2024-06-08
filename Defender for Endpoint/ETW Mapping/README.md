@@ -71,6 +71,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`FileTimestampModificationEvent`** | File timestamp information was modified. | Microsoft-Windows-SEC | 35 |
 | **`ExploitGuardAcgAudited`** | Arbitrary code guard (ACG) in exploit protection detected an attempt to modify code page permissions or create unsigned code pages. | Microsoft-Windows-Security-Mitigations | 1 |
 | **`ExploitGuardAcgEnforced`** | Arbitrary code guard (ACG) blocked an attempt to modify code page permissions or create unsigned code pages. | Microsoft-Windows-Security-Mitigations | 2 |
+| **`ExploitGuardChildProcessAudited`** | Exploit protection detected the creation of a child process. | Microsoft-Windows-Security-Mitigations | 3 |
 
 
 
