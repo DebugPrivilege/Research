@@ -72,6 +72,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`ExploitGuardAcgAudited`** | Arbitrary code guard (ACG) in exploit protection detected an attempt to modify code page permissions or create unsigned code pages. | Microsoft-Windows-Security-Mitigations | 1 |
 | **`ExploitGuardAcgEnforced`** | Arbitrary code guard (ACG) blocked an attempt to modify code page permissions or create unsigned code pages. | Microsoft-Windows-Security-Mitigations | 2 |
 | **`ExploitGuardChildProcessAudited`** | Exploit protection detected the creation of a child process. | Microsoft-Windows-Security-Mitigations | 3 |
+| **`ExploitGuardChildProcessBlocked`** | Exploit protection blocked the creation of a child process. | Microsoft-Windows-Security-Mitigations | 4 |
 
 
 
