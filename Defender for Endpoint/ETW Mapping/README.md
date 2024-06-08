@@ -69,7 +69,8 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`WmiBindEventFilterToConsumer`** | A filter for WMI events was bound to a consumer. | Microsoft-Windows-WMI-Activity | 5861 |
 | **`ShellLinkCreateFileEvent`** | A specially crafted link file (.lnk) was generated. The link file contains unusual attributes that might launch malicious code along with a legitimate file or application. | N/A | N/A |
 | **`FileTimestampModificationEvent`** | File timestamp information was modified. | Microsoft-Windows-SEC | 35 |
-| **`WmiBindEventFilterToConsumer`** | A filter for WMI events was bound to a consumer. | Microsoft-Windows-WMI-Activity | 5861 |
+| **`ExploitGuardAcgAudited`** | Arbitrary code guard (ACG) in exploit protection detected an attempt to modify code page permissions or create unsigned code pages. | Microsoft-Windows-Security-Mitigations | 1 |
+| **`ExploitGuardAcgEnforced`** | Arbitrary code guard (ACG) blocked an attempt to modify code page permissions or create unsigned code pages. | Microsoft-Windows-Security-Mitigations | 2 |
 
 
 
