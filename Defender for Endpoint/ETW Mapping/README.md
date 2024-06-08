@@ -81,6 +81,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`ExploitGuardWin32SystemCallBlocked`** | Exploit protection blocked a call to the Windows system API. | Microsoft-Windows-Security-Mitigations | 10 |
 | **`ExploitGuardNonMicrosoftSignedAudited`** | Exploit protection detected the launch of a process from an image file that is not signed by Microsoft. | Microsoft-Windows-Security-Mitigations | 11 |
 | **`ExploitGuardNonMicrosoftSignedBlocked`** | Exploit protection blocked the launch of a process from an image file that is not signed by Microsoft. | Microsoft-Windows-Security-Mitigations | 12 |
+| **`ExploitGuardEafViolationAudited`** | Export address filtering (EAF) in exploit protection detected possible exploitation activity. | Microsoft-Windows-Security-Mitigations | 13 |
 
 
 
