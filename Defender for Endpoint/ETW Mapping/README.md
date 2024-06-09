@@ -113,6 +113,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`GetClipboardData`** | The GetClipboardData function was called. This function can be used obtain the contents of the system clipboard. | Microsoft.Windows.OLE.Clipboard | ? |
 | **`PasswordChangeAttempt`** | An attempt to change a user password was made. | Microsoft-Windows-Security-Auditing | 4724 |
 | **`LogonRightsSettingEnabled`** | Interactive logon rights on the machine were granted to a user. | Microsoft-Windows-Security-Auditing | 4717 |
+| **`PrintJobBlocked`** | Device control prevented an untrusted printer from printing. | Microsoft-Windows-PrintService | 871 |
 
 
 
