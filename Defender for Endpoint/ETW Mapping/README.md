@@ -93,7 +93,9 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AppGuardSuspendContainer`** | Application guard suspended an isolated container. | Microsoft.Windows.HVSI.ContainerService | ? |
 | **`AppGuardResumeContainer`** | Application guard resumed an isolated container from a suspended state. | Microsoft.Windows.HVSI.ContainerService | ? |
 | **`AppGuardStopContainer`** | Application guard stopped an isolated container. | Microsoft.Windows.HyperV.Compute | ? |
-| **`AppGuardLaunchedWithUrl`** |The opening of an untrusted URL has initiated an application guard container. | Microsoft.Windows.HVSI.Manager | ? |
+| **`AppGuardLaunchedWithUrl`** | The opening of an untrusted URL has initiated an application guard container. | Microsoft.Windows.HVSI.Manager | ? |
+| **`SmartScreenAppWarning`** | SmartScreen warned about running a downloaded application that is untrusted or malicious. | Microsoft-Windows-SmartScreen | 1000 |
+
 
 
 
