@@ -106,6 +106,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`SmartScreenExploitWarning`** | SmartScreen warned about opening a web page that contains an exploit. | Microsoft-Windows-IE-SmartScreen | 1100 |
 | **`WriteToLsassProcessMemory`** | The WriteProcessMemory function was called indicating that a process has written data into memory for another process. | Microsoft-Windows-ThreatIntelligence | 14 |
 | **`ReadProcessMemoryApiCall`** | The ReadProcessMemory function was called indicating that a process read data from the process memory of another process. | Microsoft-Windows-ThreatIntelligence | 13 |
+| **`AmsiScriptContent`** | Script content was identified by the Antimalware Scan Interface (AMSI). | Microsoft-Antimalware-Scan-Interface | 1101 |
 
 
 
