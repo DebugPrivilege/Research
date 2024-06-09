@@ -87,6 +87,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`ExploitGuardRopExploitBlocked`** | Exploit protection blocked possible return-object programming (ROP) exploitation. | Microsoft-Windows-Security-Mitigations | 20 |
 | **`FirewallInboundConnectionToAppBlocked`** | The firewall blocked an inbound connection to an app. | Microsoft-Windows-Security-Auditing | 5031 |
 | **`FirewallServiceStopped`** | The firewall service was stopped. | Microsoft-Windows-Security-Auditing | 5025 |
+| **`AppControlCodeIntegrityDriverRevoked`** | Application control found a driver with a revoked certificate | Microsoft-Windows-CodeIntegrity | 3023 |
 
 
 
