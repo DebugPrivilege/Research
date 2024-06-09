@@ -82,6 +82,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`ExploitGuardNonMicrosoftSignedAudited`** | Exploit protection detected the launch of a process from an image file that is not signed by Microsoft. | Microsoft-Windows-Security-Mitigations | 11 |
 | **`ExploitGuardNonMicrosoftSignedBlocked`** | Exploit protection blocked the launch of a process from an image file that is not signed by Microsoft. | Microsoft-Windows-Security-Mitigations | 12 |
 | **`ExploitGuardEafViolationAudited`** | Export address filtering (EAF) in exploit protection detected possible exploitation activity. | Microsoft-Windows-Security-Mitigations | 13 |
+| **`ExploitGuardEafViolationBlocked`** | Export address filtering (EAF) in exploit protection blocked possible exploitation activity. | Microsoft-Windows-Security-Mitigations | 14 |
 
 
 
