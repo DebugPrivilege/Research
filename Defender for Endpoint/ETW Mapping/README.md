@@ -120,6 +120,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`RemoteDesktopConnection`** | A Remote Desktop connection was established. | Microsoft-Windows-RemoteDesktopServices-RdpCoreTS | 131 |
 | **`DnsQueryResponse`** | A response to a DNS query was sent. | Microsoft-Windows-DNS-Client | 3020 |
 | **`CredentialsBackup`** | The backup feature in Credential Manager was initiated | Microsoft-Windows-Security-Auditing | 5376 |
+| **`ScheduledTaskUpdated`** | A scheduled task was updated. | Microsoft-Windows-Security-Auditing | 4702 |
 
 
 
