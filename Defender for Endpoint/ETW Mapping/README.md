@@ -111,6 +111,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`GetAsyncKeyStateApiCall`** | The GetAsyncKeyState function was called. This function can be used to obtain the states of input keys and buttons. | Microsoft-Windows-Win32k | 1003 |
 | **`LdapSearch`** | An LDAP search was performed. | Microsoft-Windows-Ldap-Client | 30 |
 | **`GetClipboardData`** | The GetClipboardData function was called. This function can be used obtain the contents of the system clipboard. | Microsoft.Windows.OLE.Clipboard | ? |
+| **`PasswordChangeAttempt`** | An attempt to change a user password was made. | Microsoft-Windows-Security-Auditing | 4724 |
 
 
 
