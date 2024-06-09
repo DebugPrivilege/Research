@@ -95,6 +95,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AppGuardStopContainer`** | Application guard stopped an isolated container. | Microsoft.Windows.HyperV.Compute | ? |
 | **`AppGuardLaunchedWithUrl`** | The opening of an untrusted URL has initiated an application guard container. | Microsoft.Windows.HVSI.Manager | ? |
 | **`SmartScreenAppWarning`** | SmartScreen warned about running a downloaded application that is untrusted or malicious. | Microsoft-Windows-SmartScreen | 1000 |
+| **`SmartScreenUrlWarning`** | SmartScreen warned about opening a low-reputation URL that might be hosting malware or is a phishing site. | Microsoft-Windows-SmartScreen | 1001 |
 
 
 
