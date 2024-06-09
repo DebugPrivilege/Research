@@ -114,6 +114,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`PasswordChangeAttempt`** | An attempt to change a user password was made. | Microsoft-Windows-Security-Auditing | 4724 |
 | **`LogonRightsSettingEnabled`** | Interactive logon rights on the machine were granted to a user. | Microsoft-Windows-Security-Auditing | 4717 |
 | **`PrintJobBlocked`** | Device control prevented an untrusted printer from printing. | Microsoft-Windows-PrintService | 871 |
+| **`SafeDocFileScan`** | A document was sent to the cloud for analysis while in protected view. | Microsoft.Office.Security | ? |
 
 
 
