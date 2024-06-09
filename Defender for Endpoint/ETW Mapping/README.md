@@ -101,6 +101,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AntivirusScanCompleted`** | A Windows Defender Antivirus scan completed successfully. | Microsoft-Windows-Windows Defender | 1001 |
 | **`AntivirusScanCancelled`** | A Windows Defender Antivirus scan was cancelled | Microsoft-Windows-Windows Defender | 1002 |
 | **`AntivirusScanFailed`** | A Windows Defender Antivirus scan did not complete successfully. | Microsoft-Windows-Windows Defender | 1005 |
+| **`FirewallOutboundConnectionBlocked`** | A firewall or another application blocked an outbound connection using the Windows Filtering Platform. | Microsoft-Windows-Security-Auditing | 5157 |
 
 
 
