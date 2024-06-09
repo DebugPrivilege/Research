@@ -99,6 +99,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`SmartScreenUserOverride`** | A user has overridden a SmartScreen warning and continued to open an untrusted app or a low-reputation URL. | Microsoft-Windows-SmartScreen | 1002 |
 | **`NetworkProtectionUserBypassEvent`** | A user has bypassed network protection and accessed a blocked IP address, domain, or URL. | Microsoft-Antimalware-Service | 55 |
 | **`AntivirusScanCompleted`** | A Windows Defender Antivirus scan completed successfully. | Microsoft-Windows-Windows Defender | 1001 |
+| **`AntivirusScanCancelled`** | A Windows Defender Antivirus scan was cancelled | Microsoft-Windows-Windows Defender | 1002 |
 
 
 
