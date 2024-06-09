@@ -97,6 +97,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`SmartScreenAppWarning`** | SmartScreen warned about running a downloaded application that is untrusted or malicious. | Microsoft-Windows-SmartScreen | 1000 |
 | **`SmartScreenUrlWarning`** | SmartScreen warned about opening a low-reputation URL that might be hosting malware or is a phishing site. | Microsoft-Windows-SmartScreen | 1001 |
 | **`SmartScreenUserOverride`** | A user has overridden a SmartScreen warning and continued to open an untrusted app or a low-reputation URL. | Microsoft-Windows-SmartScreen | 1002 |
+| **`NetworkProtectionUserBypassEvent`** | A user has bypassed network protection and accessed a blocked IP address, domain, or URL. | Microsoft-Antimalware-Service | 55 |
 
 
 
