@@ -121,6 +121,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`DnsQueryResponse`** | A response to a DNS query was sent. | Microsoft-Windows-DNS-Client | 3020 |
 | **`CredentialsBackup`** | The backup feature in Credential Manager was initiated | Microsoft-Windows-Security-Auditing | 5376 |
 | **`ScheduledTaskUpdated`** | A scheduled task was updated. | Microsoft-Windows-Security-Auditing | 4702 |
+| **`RemovableStoragePolicyTriggered`** | Device control detected an attempted read/write/execute event from a removable storage device. | Microsoft-Antimalware-RTP | 25 |
 
 
 
