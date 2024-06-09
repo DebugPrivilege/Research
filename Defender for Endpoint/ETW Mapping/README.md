@@ -85,6 +85,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`ExploitGuardEafViolationBlocked`** | Export address filtering (EAF) in exploit protection blocked possible exploitation activity. | Microsoft-Windows-Security-Mitigations | 14 |
 | **`ExploitGuardRopExploitAudited`** | Exploit protection detected possible return-object programming (ROP) exploitation. | Microsoft-Windows-Security-Mitigations | 19 |
 | **`ExploitGuardRopExploitBlocked`** | Exploit protection blocked possible return-object programming (ROP) exploitation. | Microsoft-Windows-Security-Mitigations | 20 |
+| **`FirewallInboundConnectionToAppBlocked`** | The firewall blocked an inbound connection to an app. | Microsoft-Windows-Security-Auditing | 5031 |
 
 
 
