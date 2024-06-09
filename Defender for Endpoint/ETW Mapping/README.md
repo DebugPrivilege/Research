@@ -124,6 +124,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`RemovableStoragePolicyTriggered`** | Device control detected an attempted read/write/execute event from a removable storage device. | Microsoft-Antimalware-RTP | 25 |
 | **`BluetoothPolicyTriggered`** | A Bluetooth service activity was allowed or blocked by a device control policy. | Microsoft-Windows-Bluetooth-Policy | 7 |
 | **`AppControlCodeIntegritySigningInformation`** | Application control signing information was generated. | Microsoft-Windows-CodeIntegrity | 3089 |
+| **`AppControlCodeIntegrityPolicyLoaded`** | An application control code integrity policy was loaded. | Microsoft-Windows-CodeIntegrity | 3099 |
 
 
 
