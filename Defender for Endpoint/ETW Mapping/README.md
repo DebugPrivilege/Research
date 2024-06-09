@@ -89,6 +89,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`FirewallServiceStopped`** | The firewall service was stopped. | Microsoft-Windows-Security-Auditing | 5025 |
 | **`AppControlCodeIntegrityDriverRevoked`** | Application control found a driver with a revoked certificate | Microsoft-Windows-CodeIntegrity | 3023 |
 | **`AppControlCodeIntegrityImageRevoked`** | Application control found an executable file with a revoked certificate. | Microsoft-Windows-CodeIntegrity | 3036 |
+| **`AppGuardCreateContainer`** | Application guard initiated an isolated container. | Microsoft.Windows.HVSI.ContainerService | ? |
 
 
 
