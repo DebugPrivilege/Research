@@ -115,6 +115,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`LogonRightsSettingEnabled`** | Interactive logon rights on the machine were granted to a user. | Microsoft-Windows-Security-Auditing | 4717 |
 | **`PrintJobBlocked`** | Device control prevented an untrusted printer from printing. | Microsoft-Windows-PrintService | 871 |
 | **`SafeDocFileScan`** | A document was sent to the cloud for analysis while in protected view. | Microsoft.Office.Security | ? |
+| **`UntrustedWifiConnection`** | A connection was established to an open Wi-Fi access point that is set to connect automatically. | Microsoft.Windows.Sense.CollectionEtw | ? |
 
 
 
