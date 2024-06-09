@@ -118,6 +118,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`UntrustedWifiConnection`** | A connection was established to an open Wi-Fi access point that is set to connect automatically. | Microsoft.Windows.Sense.CollectionEtw | ? |
 | **`ControlFlowGuardViolation`** | Control Flow Guard terminated an application after detecting an invalid function call. | Microsoft-Windows-WER-Diag | 5 |
 | **`RemoteDesktopConnection`** | A Remote Desktop connection was established. | Microsoft-Windows-RemoteDesktopServices-RdpCoreTS | 131 |
+| **`DnsQueryResponse`** | A response to a DNS query was sent. | Microsoft-Windows-DNS-Client | 3020 |
 
 
 
