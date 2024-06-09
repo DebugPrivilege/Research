@@ -96,6 +96,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AppGuardLaunchedWithUrl`** | The opening of an untrusted URL has initiated an application guard container. | Microsoft.Windows.HVSI.Manager | ? |
 | **`SmartScreenAppWarning`** | SmartScreen warned about running a downloaded application that is untrusted or malicious. | Microsoft-Windows-SmartScreen | 1000 |
 | **`SmartScreenUrlWarning`** | SmartScreen warned about opening a low-reputation URL that might be hosting malware or is a phishing site. | Microsoft-Windows-SmartScreen | 1001 |
+| **`SmartScreenUserOverride`** | A user has overridden a SmartScreen warning and continued to open an untrusted app or a low-reputation URL. | Microsoft-Windows-SmartScreen | 1002 |
 
 
 
