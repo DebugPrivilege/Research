@@ -104,6 +104,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`FirewallOutboundConnectionBlocked`** | A firewall or another application blocked an outbound connection using the Windows Filtering Platform. | Microsoft-Windows-Security-Auditing | 5157 |
 | **`FirewallInboundConnectionBlocked`** | A firewall or another application blocked an inbound connection using the Windows Filtering Platform. | Microsoft-Windows-Security-Auditing | 5157 |
 | **`SmartScreenExploitWarning`** | SmartScreen warned about opening a web page that contains an exploit. | Microsoft-Windows-IE-SmartScreen | 1100 |
+| **`WriteToLsassProcessMemory`** | The WriteProcessMemory function was called indicating that a process has written data into memory for another process. | Microsoft-Windows-ThreatIntelligence | 14 |
 
 
 
