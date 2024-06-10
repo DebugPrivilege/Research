@@ -131,6 +131,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AppControlCodeIntegrityOriginAudited`** | Application control would have blocked a file due to its bad reputation (ISG) or installation source (managed installer) if the policy was enforced. | Microsoft-Windows-CodeIntegrity | 3091 |
 | **`AppControlCodeIntegrityOriginBlocked`** | Application control blocked a file due to its bad reputation (ISG) or installation source (managed installer). | Microsoft-Windows-CodeIntegrity | 3092 |
 | **`AppControlPolicyApplied`** | An application control policy was applied to the device. | Microsoft-Windows-AppLocker | 8001 |
+| **`NamedPipeEvent`** | A named pipe was created or opened. | Microsoft-Windows-SEC | 17 |
 
 
 
