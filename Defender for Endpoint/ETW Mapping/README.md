@@ -135,6 +135,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`DpapiAccessed`** | Decription of saved sensitive data encrypted using DPAPI. | Microsoft-Windows-Crypto-DPAPI-Events | 16385 |
 | **`RemovableStorageFileEvent`** | Removable storage file activity matched a device control removable storage access control policy. | Microsoft-Antimalware-RTP | 26 |
 | **`AuditPolicyModification`** | Changes in the Windows audit policy (which feed events to the event log). | Microsoft-Windows-Security-Auditing | 4719 |
+| **`AntivirusTroubleshootModeEvent`** | The troubleshooting mode in Microsoft Defender Antivirus was used. | Microsoft-Antimalware-Service | 60 |
 
 
 
