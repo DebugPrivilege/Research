@@ -8,7 +8,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 |------------|-------------|--------------|----------|
 | **`MemoryRemoteProtect`** | A process has modified the protection mask for a memory region used by another process. | Microsoft-Windows-ThreatIntelligence | 22 |
 | **`DeviceBootAttestationInfo`** | System Guard generated a boot-time attestation report. | 2a3bf1b9-d828-4ccf-bd0a-73fb26ea02a4 | 1 |
-| **`DriverLoad`** | A driver was loaded. | N/A | N/A |
+| **`DriverLoad`** | A driver was loaded. | Microsoft-Windows-SEC | 24 |
 | **`NtAllocateVirtualMemoryRemoteApiCall`** | Virtual Memory was allocated for a remote process | Microsoft-Windows-ThreatIntelligence | 1 |
 | **`AccountCheckedForBlankPassword`** | An account was queried for a blank password. | Microsoft-Windows-Security-Auditing | 4797 |
 | **`SecurityGroupCreated`** | An security group was created. | Microsoft-Windows-Security-Auditing | 4731 |
