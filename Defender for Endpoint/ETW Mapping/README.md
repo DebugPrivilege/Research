@@ -137,7 +137,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AuditPolicyModification`** | Changes in the Windows audit policy (which feed events to the event log). | Microsoft-Windows-Security-Auditing | 4719 |
 | **`AntivirusTroubleshootModeEvent`** | The troubleshooting mode in Microsoft Defender Antivirus was used. | Microsoft-Antimalware-Service | 60 |
 | **`TamperingAttempt`** | An attempt to change Microsoft Defender XDR settings was made. | Microsoft-Antimalware-Service| 67 |
-| **`NetworkShareObjectAccessed`** | An attempt to change Microsoft Defender XDR settings was made. | Microsoft-Antimalware-Service| 67 |
+| **`NetworkShareObjectAccessed`** | An network share object was accessed | Microsoft-Windows-Security-Auditing| 5140 |
 
 
 
