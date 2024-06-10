@@ -132,6 +132,7 @@ This section provides a detailed mapping of the majority of the ActionTypes from
 | **`AppControlCodeIntegrityOriginBlocked`** | Application control blocked a file due to its bad reputation (ISG) or installation source (managed installer). | Microsoft-Windows-CodeIntegrity | 3092 |
 | **`AppControlPolicyApplied`** | An application control policy was applied to the device. | Microsoft-Windows-AppLocker | 8001 |
 | **`NamedPipeEvent`** | A named pipe was created or opened. | Microsoft-Windows-SEC | 17 |
+| **`DpapiAccessed`** | Decription of saved sensitive data encrypted using DPAPI. | Microsoft-Windows-Crypto-DPAPI-Events | 16385 |
 
 
 
