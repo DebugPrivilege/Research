@@ -1,10 +1,7 @@
 <#
 .SYNOPSIS
-    A script to perform a brute-force attack on local user accounts using a list of passwords.
-
-.CREDIT
-    Credit goes to: https://www.infosecmatter.com/windows-local-admin-brute-force-attack-tool-localbrute-ps1 - I just re-wrote some parts of it
-
+    A script to perform a brute-force attack on local user accounts using a list of passwords. Credit goes to: https://www.infosecmatter.com/windows-local-admin-brute-force-attack-tool-localbrute-ps1 - I just re-wrote some parts of it
+    
 .DESCRIPTION
     This script takes a list of usernames and a password file, and attempts to validate each user
     against the passwords in the file. If a password is found, it is recorded in a state file
