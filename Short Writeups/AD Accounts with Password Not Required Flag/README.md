@@ -15,3 +15,7 @@ After googling around, I did saw some examples of people mentioning this:
 According to the Microsoft article, there's no direct interface to query accounts with blank passwords. However, you can write a PowerShell script that identifies accounts with the *"PASSWD_NOTREQD"* flag and then use **`runas.exe`** to test if you can authenticate without a password. This approach effectively checks for accounts that might have blank passwords by attempting to log in without a password.
 
 ![image](https://github.com/user-attachments/assets/49ffbbd7-63f9-4872-ba17-03a468086326)
+
+# Resources
+
+- Link to the PowerShell script that was used as demo: https://raw.githubusercontent.com/DebugPrivilege/RandomizedProjects/main/Windows/PowerShell%20Scripts/Test-PasswordNotRequired.ps1
