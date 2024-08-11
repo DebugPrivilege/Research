@@ -7,3 +7,7 @@ The *"PASSWD_NOTREQD"* flag corresponds to the decimal value **`544`** within th
 # Why might it be used in Active Directory?
 
 The article explains that accounts with the *"PASSWD_NOTREQD"* flag often arise from identity management systems that fail to remove the flag after setting a password. Although the flag allows accounts to exist with blank passwords, it’s rare to find active accounts with blank passwords due to this issue. See: https://learn.microsoft.com/en-us/archive/blogs/russellt/passwd_notreqd
+
+After googling around, I did saw some examples of people mentioning this:
+
+![image](https://github.com/user-attachments/assets/f6a95b4b-2379-4a48-80bf-6f0266e6ddf1)
