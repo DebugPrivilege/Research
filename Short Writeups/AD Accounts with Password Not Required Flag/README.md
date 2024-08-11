@@ -11,3 +11,5 @@ The article explains that accounts with the *"PASSWD_NOTREQD"* flag often arise 
 After googling around, I did saw some examples of people mentioning this:
 
 ![image](https://github.com/user-attachments/assets/f6a95b4b-2379-4a48-80bf-6f0266e6ddf1)
+
+According to the Microsoft article, there's no direct interface to query accounts with blank passwords. However, you can write a PowerShell script that identifies accounts with the *"PASSWD_NOTREQD"* flag and then use **`runas.exe`** to test if you can authenticate without a password. This approach effectively checks for accounts that might have blank passwords by attempting to log in without a password.
