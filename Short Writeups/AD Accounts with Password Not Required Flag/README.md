@@ -18,4 +18,4 @@ According to the Microsoft article, there's no direct interface to query account
 
 # Resources
 
-- Link to the PowerShell script that was used as demo: https://raw.githubusercontent.com/DebugPrivilege/RandomizedProjects/main/Windows/PowerShell%20Scripts/Test-PasswordNotRequired.ps1
+- Link to the PowerShell script that was used as demo: https://github.com/DebugPrivilege/Research/blob/main/Windows/PowerShell%20Scripts/Test-PasswordNotRequired.ps1
